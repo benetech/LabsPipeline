@@ -1,4 +1,4 @@
-{
+[
 {
 	"Key": "IDEA-142",
 	"Summary": "Mobile Tactile Transportation Maps",
@@ -13,4 +13,4 @@
 	"Created": "4/25/2016 9:45",
 	"Description": "An open source, web-based tool that makes it easy to create image descriptions for images in existing DAISY or EPUB format books, and that allows crowdsourcing of image descriptions to reduce cost and delivery time for end-users. \r\n"
 }
-};
+]
