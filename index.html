@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
 	
 	<script>
-		var json = $.getJSON("json/LabsPipeline.json", function(json) {
+		var json2 = $.getJSON("json/LabsPipeline.json", function(json) {
 			console.log(json);
 		});
 	</script>
@@ -35,7 +35,7 @@
 <script>
 $(document).ready(function () {
 	
-	var $records = $('#json'),
+	var $records = $('#json2'),
 		myRecords = JSON.parse($records.text());
 	$('#my-final-table').dynatable({
 	  dataset: {
