@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Labs Pipeline by benetech</title>
 	<script src="vendor/jquery-1.7.2.min.js"></script>
-	<script src="jquery.dynatable.js"></script>
+	
 	<link rel="stylesheet" href="stylesheets/jquery.dynatable.css">
     <meta name="viewport" content="width=device-width">
 	
@@ -31,6 +31,7 @@
   
 <script>
 $(document).ready(function () {
+	<script src="jquery.dynatable.js"></script>
 	var $records = $('#json'),
 		myRecords = JSON.parse($records.text());
 	$('#my-final-table').dynatable({
