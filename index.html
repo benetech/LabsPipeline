@@ -4,39 +4,39 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Labs Pipeline by benetech</title>
-	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.0.0/list.min.js"></script>
  </head>
  
  <body>
  	
-	<script>
-		var options = {
-			item: 'hacker-item'
-		};
+<div id="users">
+  <input class="search" placeholder="Search" />
+  <button class="sort" data-sort="name">
+    Sort by name
+  </button>
 
-		var values = [
-			{ name: 'Jonny', city:'Stockholm' }
-			, { name: 'Jonas', city:'Berlin' }
-		];
+  <ul class="list">
+    <li>
+      <h3 class="name">Jonny Stromberg</h3>
+      <p class="born">1986</p>
+    </li>
+    <li>
+      <h3 class="name">Jonas Arnklint</h3>
+      <p class="born">1985</p>
+    </li>
+    <li>
+      <h3 class="name">Martina Elm</h3>
+      <p class="born">1986</p>
+    </li>
+    <li>
+      <h3 class="name">Gustaf Lindqvist</h3>
+      <p class="born">1983</p>
+    </li>
+  </ul>
 
-		var hackerList = new List('hacker-list', options, values);
-	</script>
- 
-<div id="hacker-list">
-  <ul class="list"></ul>
 </div>
-
-<div style="display:none;">
-  <!-- A template element is needed when list is empty, TODO: needs a better solution -->
-  <li id="hacker-item">
-   <h3 class="name"></h3>
-   <p class="city"></p>
-  </li>
-</div>
-
-
-
+<script src="http://listjs.com/no-cdn/list.js"></script>
 
 
 
