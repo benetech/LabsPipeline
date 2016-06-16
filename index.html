@@ -28,7 +28,7 @@
 					complete: function(results){data = results.data;}
 				});
 				
-				for(var i in data)
+				for(var i = 0; i < data.length; i++)
 				{
 					ideas.push([data[i].Key,data[i].Summary,data[i].Status,data[i].Created,data[i].Description]);
 					console.log(i)
