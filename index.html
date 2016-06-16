@@ -11,9 +11,7 @@
 		<script>
 			var data;
 			var ideas = [];
-			var  results;
-			var data_length;
-		
+			
 			Papa.parse("https://benetech.github.io/LabsPipeline/data/pipe.csv", 
 				{
 					download: true,
@@ -22,14 +20,7 @@
 					header: true,
 					complete: function(results){data = results.data;}
 				});
-				data_length = data.length;
-				console.log(data_length);
 				
-				for(var i = 0; i < data_length; i++)
-				{
-					ideas.push([data[i].Key,data[i].Summary,data[i].Status,data[i].Created,data[i].Description]);
-					console.log(i)
-				}
 		</script>
 			
 	</head>
@@ -37,10 +28,20 @@
 	<body>
 		
 		<table id="example" class="display" width="100%"></table>
-
+		
 		<script>
-
-			
+			var data_length = data.length;
+			console.log(data_length);
+					
+			for(var i = 0; i < data_length; i++)
+				{
+					ideas.push([data[i].Key,data[i].Summary,data[i].Status,data[i].Created,data[i].Description]);
+					console.log(i)
+				}
+		</script>
+		
+		<script>
+					
 			$(document).ready(function() {	
 				$('#example').DataTable( {
 					data: ideas,
