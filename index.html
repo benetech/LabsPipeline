@@ -15,24 +15,14 @@
 		<script>
 			$(document).ready(function() {
 			
-				var f = new File([""], "\data\pipe.csv");
+				var f = new File([""], "data\pipe.csv");
 				
 				Papa.parse(f, 
 				{
-					delimiter: "",
-					newline: "",
+					delimiter: ",",
 					header: true,
-					dynamicTyping: false,
-					preview: 0,
-					encoding: "",
-					worker: false,
-					comments: false,
-					step: undefined,
 					complete: function(results, file){console.log("Parsing complete:", results, file);},
-					error: function(error, file){console.log("Parsing error:", error, file);},
-					download: false,
-					skipEmptyLines: false,
-					fastMode: false
+					error: function(error, file){console.log("Parsing error:", error, file);
 				});
 				
 				
