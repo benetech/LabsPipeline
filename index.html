@@ -30,6 +30,7 @@
   
   
 <script>
+$(document).ready(function () {
 	var $records = $('#json'),
 		myRecords = JSON.parse($records.text());
 	$('#my-final-table').dynatable({
@@ -37,6 +38,7 @@
 		records: myRecords
 	  }
 	});
+});
 </script>
   
   
