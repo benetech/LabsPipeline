@@ -18,7 +18,7 @@
 					skipEmptyLines: true,
 					delimiter: ",",
 					header: true,
-					complete: function(results){data = results.data;}
+					complete: function(results){data = results.data;go();}
 				});
 				
 		</script>
@@ -30,6 +30,8 @@
 		<table id="example" class="display" width="100%"></table>
 		
 		<script>
+		
+		function go(){
 			var data_length = data.length;
 			console.log(data_length);
 					
@@ -38,10 +40,7 @@
 					ideas.push([data[i].Key,data[i].Summary,data[i].Status,data[i].Created,data[i].Description]);
 					console.log(i)
 				}
-		</script>
-		
-		<script>
-					
+				
 			$(document).ready(function() {	
 				$('#example').DataTable( {
 					data: ideas,
@@ -54,10 +53,10 @@
 					]
 				} );
 				
-			} );
-			
+			} );	
+				
+			}
 		</script>
-
 
 	</body>
  
