@@ -9,8 +9,8 @@
 		<script src="javascripts/jquery.dataTables.min.js"></script>
 		
 		<script>
-			var data;
-			var ideas = [];
+			data;
+			ideas = [];
 		
 			Papa.parse("https://benetech.github.io/LabsPipeline/data/pipe.csv", 
 				{
@@ -20,10 +20,10 @@
 					header: true,
 					complete: function(results){data = results.data;}
 				});
+				data_length = data.length;
+				console.log(data_length);
 				
-				console.log(data);
-				
-				for(var i = 0; i < data.length; i++)
+				for(var i = 0; i < data_length; i++)
 				{
 					ideas.push([data[i].Key,data[i].Summary,data[i].Status,data[i].Created,data[i].Description]);
 					console.log(i)
