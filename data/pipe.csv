@@ -1,0 +1,236 @@
+Key,Summary,Status,Created,Description
+IDEA-142,Mobile Tactile Transportation Maps,On Our Radar,6/14/2016 7:08,"Convert the tactile maps made by Lighthouse for the Blind in (SF) to a more convenient, mobile app (think google maps but verbally instructing blind user how to get where they want to go, that also communicates things like stairs, accessible areas, etc.) 
+http://lighthouse-sf.org/braille-translation/braille-tactile-maps/"
+IDEA-141,Natural Synthetic Voices,On Our Radar,6/14/2016 7:05,"Develop synthetic voices to sound like naturally speaking voices. I frequently hear at conferences and in our satisfaction surveys that members would like the voices to sound more natural in whatever reading tool they use for Bookshare. If you are able to achieve this cross platform, then it could also be potentially licensed to companies like Apple, etc, and bring in a revenue stream to Benetech. This is bigger picture for any accessible device that reads text, etc. to people."
+IDEA-140,Skills training for refugee women,On Our Radar,6/14/2016 6:34,"REcharge Initiative is a non-profit organization that seeks to empower refugee women in the United States by providing them with an opportunity to build marketable technological skills and obtain employment in the Bay Area. REcharge Initiative seeks to achieve these outcomes by: 
+
+1. Hosting workshops and planned classes to teach refugee women technology skills related to fields such as web development, graphic design and data science. 
+
+2. Providing these students with nanodegree certifications, including Microsoft Office Specialization (MOS), W3Schools HTML/CSS/JS, and Adobe Certified Associate (ACA) certifications, to legitimize their skills and trainings. 
+
+3. Connecting these women to employers in the Bay Area in order to ensure that they will be able to make a lasting impact in industry using the skills that they have acquired. 
+
+Our solution recognizes that refugees, especially refugee women face significant obstacles in gaining employment and assimilating and we seek to tackle this, as well as the gender imbalances in the tech industry."
+IDEA-139,Green cleaning product,Unlikely for Labs,6/14/2016 6:29,"I am developing a concept for a green cleaning product in 
+a dissolvable tablet form in biodegradable packaging. 
+I also plan to develop a reusable dispenser to be sold"
+IDEA-138,Easier passwords for people with print disabilities or children,On Our Radar,6/14/2016 6:25,"a. Do further research into ""unconscious"" data for passwords. 
+http://bigthink.com/ideafeed/passwords-that-only-your-unconscious-mind-remembers 
+b. Research other alternatives to memorizing a string to add layers of protection to simple passwords, like choosing a sequence of images"
+IDEA-137,Accessibility Shame Report,On Our Radar,6/14/2016 6:22,"Shame report website/blog for software providers and web sites who have poor accessibility. Allows people to upload stories, which may get voted up reddit or stack-overflow-style. The goal is for stories to go viral which will generate some pressure to fix the software."
+IDEA-136,Puppy Mill Reporting Registry,Unlikely for Labs,6/14/2016 6:21,Allow crowd-sourced reporting of pet stores who sell from puppy mills and which puppy mills they sell from.
+IDEA-135,Mechanical Turk image descriptions,On Our Radar,6/2/2016 14:09,"Content creators want accurate, automated descriptions of complex graphics so they can provide alternative text. Create an API that accepts an image url and responds with a description. The API would engage Mechanical Turk workers to describe images. 
+
+"
+IDEA-134,Encrypted document search tool,On Our Radar,6/2/2016 14:07,"Support digital privacy via a free, open source tool enabling plain or encrypted document search on or offline, eliminating the need for costly cloud servers specialized in delivering search results [1]. In doing so, search terms & documents are no longer vulnerable to data breaches or forced access via authorities. 
+
+"
+IDEA-132,Poet Image Description Training Module,Mid Stage,5/26/2016 13:11,expand our current training platform to provide more guidelines and interactive tools for content authors looking to make diagrams/images accessible.
+IDEA-131,Buy Accessible,On Our Radar,5/26/2016 12:56,"best practice guidelines provided to/for decision-makers regarding the purchase of accessible educational materials 
+
+"
+IDEA-127,Automated descriptions for images,On Our Radar,5/9/2016 15:49,automated extraction of key information from diagrams and images
+IDEA-126,OER Repository/Registry,Unlikely for Labs,5/6/2016 8:27,"This might be similar to https://www.oercommons.org/, but with more options. In light of the recent All Children Reading/World Vision call, there seems to be a demand for an open source collection with options that not only provide alternatives in access modes (braille, audio, etc.), but also serves various needs around the world (sign language, simplified language, alternative/local language, etc.). 
+
+This would be like a Bookshare 2.0, supporting additional means of access (modes, language, etc.) as well as emerging types of technology (videos, media rich content, etc.). We would also link to others like ABC, IA, OER Commons, etc."
+IDEA-124,Mashup of GreatSchools and WalkScore,Unlikely for Labs,5/2/2016 12:30,"Idea: To help families find communities that are both walkable (environmental benefit) and have good schools (ideally public ones). If it's possible to include average cost of living, or cost to buy or rent a ""typical"" apartment or home, that would be a bonus. Ability to search to narrow what you are looking for etc. 
+
+I have looked for stuff that combines this type of info with no luck... 
+
+http://www.greatschools.org/ 
+
+https://www.walkscore.com/ 
+
+Social Impact: Moderate Impact 
+Market Opportunity: Not Sure 
+How Achievable: Definitely will achieve 
+How Fundable: Not Sure 
+Internal Champion: Yes 
+Champion: Anna Berns 
+Potential Partners: Not sure 
+Comments: Not sure what kind of APIs the sites have, but I've seen each of them integrated into other sites, so presumably there is something, I've just never seen them together. 
+Submitters: Anna Berns 
+"
+IDEA-114,Mobile Poet for Math,On Our Radar,4/28/2016 11:14,"Real-time access to math, for situations like classroom learning where print disabled students might need immediate transcription of math content. 
+
+"
+IDEA-113,EPUB Accessibility Certification/Checker,Exploratory,4/28/2016 11:10,facilitate review of how EPUB3 files match up against accessibility best practices. This is critical if we are to build out a Benetech certification program and can leverage some of the Poet File Checker (https://diagram.herokuapp.com/image_book/image_check) that we had previously developed.
+IDEA-112,"IDEA-29
+MathIO - Customized plug-ins & add-ons",On Our Radar,4/28/2016 11:05,"plugin for commonly used authoring tools (e.g. MS Word, Google docs, Indesign, web-based LMS systems, etc.)"
+IDEA-111,"IDEA-29
+MathIO - New ARIA specifications for math",On Our Radar,4/28/2016 11:03,"Getting math more mainstream by starting to define a set of math specifications using ARIA. Refer to recently published works in this area: 
+
+Article: 
+Towards ARIA Standards for Mathematical Markup, MathJax Consortium. By Davide Cervone, Peter Krautzberger and Volker Sorge: http://workshop.sciaccess.net/DEIMS2016/articles/p15_Volker_ARIA.pdf 
+
+Also refer to: http://mathsprintcsun.herokuapp.com/posts/fRJGBpyTBvShP6iTe/new-aria-specifications-for-math"
+IDEA-109,MathIO - semantic annotations & editing tree structures to support additional rule sets,On Our Radar,4/28/2016 10:37,"Establish more standardized semantics that can support customization and the addition of multiple speech rules (leveraging the current Speech Rule Engine). This will make various speech rules (e.g. Mathspeak, Clearspeak, Nemeth) available to other tools and devices (e.g. NVDA, ORCA), opening up options to users who can then select the speech rule and or language of their choice. 
+
+Refer to the following work started at the CSUN Math Sprint: 
+http://mathsprintcsun.herokuapp.com/posts/FENhamNDKHSDmSAeq/semantic-annotation-and-editing-the-tree-structure 
+"
+IDEA-108,"IDEA-29
+MathIO - accessible math for PDF",On Our Radar,4/28/2016 10:33,automated tagging and transcription of math content in PDFs
+IDEA-107,"IDEA-29
+MathIO - authoring/editing tools",On Our Radar,4/28/2016 10:33,"support authoring and interacting with math by users. Refer to: 
+http://mathsprintcsun.herokuapp.com/posts/wnZ2mjthfG9ZJrZpS/tools-that-support-authoring-interacting-with-math 
+"
+IDEA-106,MathIO - tactile exploration of math,On Our Radar,4/28/2016 10:31,"extracting math content into 3D or SVG-based visualizations so they could be interacted with in that context. Refer to: 
+* http://mathsprintcsun.herokuapp.com/posts/7wnA2R3MFvmcwnAYL/tactile-exploration-of-math-content 
+* http://mathsprintcsun.herokuapp.com/posts/qGKTwYEbBLLiLbhnx/extracting-key-information-from-mathematical-diagrams 
+
+Potential partners: 
+* Volker Sorge 
+* University of CO, Boulder 
+* The Catholic University of America (Chelsea's school) 
+* Michael, Germany Media Advice Center"
+IDEA-105,MathIO - math portability,On Our Radar,4/28/2016 10:22,Feed MathML content to other tools that can customize interact with the original math source (refer to the BAM prototype from CSUN Math Sprint: http://mathsprintcsun.herokuapp.com/posts/ux6A9NPEZJxZDQuMf/portability-of-math-content
+IDEA-101,Avina Clean Water App,Graduated,4/26/2016 10:55,"Android tool to collect information on activities and capacity of local water organizations and deliver custom trainings based on assessment of the provided information. Working with partner the Avina Foundation who had originally developed a paper-based survey tool. 
+"
+IDEA-99,Data for Decision-making,Unlikely for Labs,4/26/2016 10:52,"Real-time business logic and data analysis to enable decisionmaking by end users; may be related to service referrals, dashboards and data aggregation 
+"
+IDEA-98,Library summer reading app,Unlikely for Labs,4/26/2016 10:52,"Generate branded open source summer reading apps for local libraries (from Silicon Valley Talent Partnership) 
+"
+IDEA-97,mTails,Unlikely for Labs,4/26/2016 10:52,"USB-stick distribution of Martus + a hardened Ubuntu, perhaps optionally with the out-of-the-box ability to use Tor or other features unique to that use model. Initial prototypes have been developed with the Tails project. 
+"
+IDEA-96,Health insurance decision maker for low income users,Unlikely for Labs,4/26/2016 10:51,"Healthplanforyou.org (ZeroDivide): Tool to help consumers make better decisions about healthcare plans by calculating true cost of healthcare in easy to understand way. Could be expanded to link to services and how to use your insurance (most users will qualify for Medicaid). 
+"
+IDEA-95,Attention Modification App,Unlikely for Labs,4/26/2016 10:51,"app as therapy for anxiety, OCD and PTSD 
+"
+IDEA-94,Ebola decontamination delivery technology,Unlikely for Labs,4/26/2016 10:51,"Better disinfectant delivery system for chlorine dioxide gas. 
+"
+IDEA-93,Real-time crime/harassment reporting,On Our Radar,4/26/2016 10:50,"""realtime reporting of issues/crimes/harassment, i.e., at the airport or on a subway. 
+"" 
+"
+IDEA-91,Miradi for Earthquakes and disasters,On Our Radar,4/26/2016 10:45,"Global models have assembled massive amounts of information on EQ vulnerability/hazard around the world, but communities at risk don't know how to use this highly technical information to prepare for or prevent impacts. EQ Risk Mitigation tool would walk users step-by-step through (a) identifying their risk profile and (b) correlating that profile with affordable mitigation strategies that work. 
+"
+IDEA-90,Tech Heroes for seniors and high-school students,On Our Radar,4/26/2016 10:45,"Work with seniors and high school students with the tech heroes project 
+"
+IDEA-89,BetterAccent,On Our Radar,4/26/2016 10:45,"Using BetterAccent for disabled. Accent correction services for people with speaking disabilities. 
+"
+IDEA-88,GPS for crosswalk assistance,On Our Radar,4/26/2016 10:45,"Designing a product that will allow the impaired to safely cross the cross-walks, like any other person 
+"
+IDEA-87,blindradio.com,On Our Radar,4/26/2016 10:45,"Looking for partner for radio products for blind/visually impaired 
+"
+IDEA-86,Tongue Touch Keypad,On Our Radar,4/26/2016 10:45,"Reinvention of a 18 year old technology, the ""newAbilities"" tongue touch keypad (TTK), which allows quads with no voice to drive wheelchairs and access the computer/internet independently using just the tongue 
+"
+IDEA-85,Braille Label Maker,On Our Radar,4/26/2016 10:44,"Braille label maker (www.braillelabeler.net), designed for the blind to use independently and with ease 
+"
+IDEA-84,School for people with Asperger's,Unlikely for Labs,4/26/2016 10:44,"California college (or even a small school within a college or technology business campus like Google) designed especially to train and develop qualifying Asperger's students and harness the power of their remarkable minds. 
+"
+IDEA-83,The eye-hub network,On Our Radar,4/26/2016 10:44,"The objective of the eye hub network is to use existing infrastructure (mobile device, internet...) to improve eye care services. 
+"
+IDEA-82,Virtual assistance glasses,On Our Radar,4/26/2016 10:44,"A virtual assistance program for blind people, with a web cam, mounted on glasses, which allows a sighted person to view the blind person's surroundings and provide assistance. A Google Glass style product. 
+"
+IDEA-81,The LD Channel,On Our Radar,4/26/2016 10:44,"The LD Channel would be a website formatted much like a television network that would provide information to parents of children with learning disabilities through audio and video formats. This would be a reformatting of the way that most information is currently presented (online text) because parents often have challenges themselves with text-based information presentation. 
+"
+IDEA-80,Geek giving,On Our Radar,4/26/2016 10:44,"Geek giving: a service that allowed participants to set up a monthly charge to their credit card and then apportioned that out to a specific set of worthy, verified, 501c3 organizations in the technology space. For example, I'd set it up to charge me $50 per month, and I could tell it to send $10 to the FSF, $20 to the EFF, and $20 to Apache 
+"
+IDEA-79,Open source courts,On Our Radar,4/26/2016 10:43,"Develop an open source system for running a national/regional/local court system. 
+"
+IDEA-78,A tracking system for implantable devices,On Our Radar,4/26/2016 10:43,"Way to track implantable devices http://www.cnn.com/2011/HEALTH/01/04/defibrillator.implants.study/index.html?hpt=T2 
+"
+IDEA-77,BeneCore/BenePlatform,On Our Radar,4/26/2016 10:43,"Bene*Core is a standard set of operating principles, procedures and best practices that make it easier for a group to spend less time reinventing them and instead focus on their expertise. Bene*Platform is a standard software platform the nonprofit can leverage. 
+"
+IDEA-76,Global Action Partners Portal [GAPP] - collaboration,On Our Radar,4/26/2016 10:43,"Global Action Partners Portal [GAPP] - a global green marketplace for localized economies. It is an online sales tool that supports sustainable development and bridges the gap between theory and action within an 'ebay' style marketplace linked to an academic journal that would be run by my non-profit. 
+"
+IDEA-75,Disaster relief info for people with disabilities,On Our Radar,4/26/2016 10:43,"Developing a method for providing information for interested persons with disabilities concerning the existence and location of the county's accessible services, activities, and programs. 
+"
+IDEA-74,Gesture to audio converter,On Our Radar,4/26/2016 10:42,"Gesture to audio converter for people who are verbally/speech impaired. The aim of this device is to read hand gestures into audio signals. The device just uses a camera to read the gestures and a processor to interpret them. This would allow people with verbal/speech impairments to be understood by people who do not understand sign language. 
+"
+IDEA-73,Digital assistant for people with mild cognitive deficits,On Our Radar,4/26/2016 10:42,"Smartphone technology for assisting patients with mild cognitive deficits. deficits, helping care-recipients live independently for longer and alleviating the workload of caregivers. The modified smartphone would focus on making key functions more user-friendly (e.g. communication tools, scheduler and location tracker) and have an interface for remote monitoring by a caregiver(s). 
+"
+IDEA-72,Agriculture in Developing World,On Our Radar,4/26/2016 10:42,"Software for improving the ability of agricultural production models to characterize the impacts of climate change on the agricultural sector. Current partner efforts are focused in Sub-Saharan Africa and South Asia. The big IT focuses now is the development of data interoperability tools: making datasets available to multiple models, each which uses different formats, units, etc. 
+"
+IDEA-71,An Orton-Gillingham school app,On Our Radar,4/26/2016 10:42,"Work with specialized dyslexia schools to create an app that implements the Orton-Gillingham methodology for decoding text (i.e., adding macrons and breves to text) 
+"
+IDEA-70,"""Lexis Nexis"" for legal information specifically for the developing world",On Our Radar,4/26/2016 10:42,"Provide an online source for searching legal information specifically for developing countries. The Center for Constitutional Rights has a doc sharing portal that could be upgraded 
+"
+IDEA-69,AED (Defibrillator) app,On Our Radar,4/26/2016 10:42,"Take over a prototype app for spotting and maintaining AEDs (defibrillators). 
+"
+IDEA-68,Software for improving trial monitoring,On Our Radar,4/26/2016 10:42,"App for assisting with the monitoring of legal trials. Could be semicustom app implementation. 
+"
+IDEA-67,Tools for recovering cognitive skills,On Our Radar,4/26/2016 10:41,"Online drills and exercises to help stroke victims recover cognitive skills. Specific ask was for help listening to digits out loud and doing a game for recognizing them correctly. 
+"
+IDEA-66,Helping vulnerable workers,On Our Radar,4/26/2016 10:41,"Santa Clara Valley's Human Relations Commission wants to have technology for helping vulnerable workers. 
+"
+IDEA-63,Emergency Medicine Cookbook App,On Our Radar,4/25/2016 11:56,"A free Android application that gives emergency medical technicians a simple guidebook to step-by-step instructions for the medical interventions they need to perform, customized to each country's standard medical practices. Content to be vetted by a specific major university's Emergency Medicine Department, aligned with evidence-based practices. 
+"
+IDEA-62,Fighting Counterfeit pharmaceuticals,On Our Radar,4/25/2016 11:56,"Optical pattern recognition software for verification of pharmaceuticals using highly complex, existing patterns in packaging and seals. 
+"
+IDEA-61,Secure membership database,On Our Radar,4/25/2016 11:55,"Several organizations (i.e., LGBT orgs in Africa) use Martus to keep their membership information secure, but it isn't really designed for that. Build an adaptation that is specifically designed for this. 
+"
+IDEA-60,ADE: Activity Duration Estimator,On Our Radar,4/25/2016 11:53,"For people with Parkinson's and similar conditions, device to monitor their tremors and predict how long a common activity like getting dressed will take. This will help predict schedule changes. Requires machine learning."
+IDEA-59,Anti-bullying app,On Our Radar,4/25/2016 11:52,"Anti-bullying app for all students, but especially targeted at middle and secondary school. Could have big impact both domestically and internationally. 
+Bullying is a big problem in US schools, and there are many anti-bullying campaigns. We've never armed kids with the tools to stop it, though. 
+Additionally, I think we could sell the app (or give it away and use some anti-bullying advertising) to fund development. 
+
+https://www.mobilestrategies360.com/2015/09/18/how-one-school-fights-bullies-mobile-app. 
+Internal champion: Brad Turner"
+IDEA-58,Family Relocation-reconnection unification tool,On Our Radar,4/25/2016 11:52,"AKA FRRUT. On any given day hundreds to tens of thousands of people leave their homes, leaving virtually everything behind. They may choose to leave due to economic uncertainty, or they may be forced from their homes by famine, war, disease, ethnic 'cleansing,' or poverty. Often, these people are poor; almost always they leave out of desperation, knowing that survival is more likely away from their home. 
+During their journey, inevitably, families get split up. Mothers and children are sent ahead and fathers are left behind, or children are sent by a parent to a remote location to meet another parent for their safety. Benetech could build an application (database) that could reconnect these broken families. However, the database would have to represent families through a token or otherwise obscure a name or location. For example, earlier this year there were thousands of children that came across the border from Mexico. Many of them had family in the US, but often that family member was undocumented. Helping those children reunite with their parents would help the family (and the US Gov't) but the family isn't going to expose themselves to the INS and risk deportation. If they could communicate anonymously with a token representing their identity, they could safely reunite. This is repeated regularly (Syria is the latest). http://www.cnn.com/interactive/2015/10/world/dadaab-refugees/?utm_source=nextdraft&utm_medium=email"
+IDEA-57,"""American Idle"" -- warning when car is idling more than 1 minute",On Our Radar,4/25/2016 11:50,"""American Idle"" - Problem: People sit in their cars with engine running doing email and don't realize how much time is going by and how many pounds of C02 they are emitting. Possible solution: app that detects when your car has been idling for more than 1 minute when not in traffic and beeps to indicate you should consider turning off the engine (like your fridge beeps when the door has been open too long). An average vehicle with a 3-litre engine idling for ten minutes burns 300 millilitres (over 1 cup) of fuel and this produces 690 grams of CO2. Lots of health, financial, climate implications."
+IDEA-56,Recycling Guru,Unlikely for Labs,4/25/2016 11:49,"help people identify what type of garbage/recycling goes into which bins as this is often times confusing (compost, vs. recycling, vs. garbage, vs. paper, etc.). Such an app could also be used to help visually impaired scan an object (such as the label for a plastic bottle) and match it with the correct bin. This not only helps ensure better accuracy in waste allocation, but also can leverage QR codes and other technology that might be more sanitary for visually impaired folks."
+IDEA-55,"Accessible, Responsive Landmarks",Unlikely for Labs,4/25/2016 11:48,"""at the Design Museum London - Designs of the Year 2015 - idea is to make city environment more accessible with things like voiced info at certain landmarks where info is determined by your particular need/disability as entered into a mobile app. 
+http://www.rossatkin.com/wp/?portfolio=responsive-street-furniture"""
+IDEA-54,Multi-Sensory Cards,On Our Radar,4/25/2016 11:47,"Seniors with vision loss (and BVI) have a hard time reading cards, but older populations tend to prefer more traditional forms of communication exchange involving tangible objects. Provide a way to enhance cards using additional modes and sense. For example, tactile graphics accenting key elements or personalized audio recordings from the individuals in the image (think Xmas cards)."
+IDEA-53,Virtual Assistance,On Our Radar,4/25/2016 11:46,"A virtual assistance program for blind people, with a web cam, mounted on glasses, which allows a sighted person to view the blind person's surroundings and provide assistance. A Google Glass style product."
+IDEA-52,Resources for travellers,On Our Radar,4/25/2016 11:44,A social network or other online meeting place / information exchange system for people who want to volunteer while they travel.
+IDEA-51,Transportation App,On Our Radar,4/25/2016 11:43,Link in various social media networks and transportation sensors into a centralized app that keeps users updated on status of public transportation resources.
+IDEA-50,3D Printing Access,On Our Radar,4/25/2016 11:41,"Like 3DHubs but specifically designed to connect local printers already designated for non-profit/educational use through distributed network of 3D printers in schools, museums, libraries and other community spaces. Focus on students as printer operators. Requests come directly from image/3D model registry, which can be linked or searched directly from books. 3D model can be accompanied by tour metadata/annotation, which end user is encouraged to submit back into system."
+IDEA-49,Music Literacy,On Our Radar,4/25/2016 11:40,"audio/visual/haptics simulation for playing music using a tablet or online device. Potential to serve lower income demographics (cheaper instruments, distance learning is cheaper than one-on-one live lessons) and support the legacy of more obscure instruments (regional limitations or older, ancient instruments)"
+IDEA-48,Air Cleaning Billboard,Unlikely for Labs,4/25/2016 11:39,As seen at London Design Museum's Designs of the Year 2015 exhibit
+IDEA-47,SMS Water Pump,On Our Radar,4/25/2016 11:35,"For people in villages that must walk very far to turn on water pumps, then walk back when the water is actually running. Remote control of the pump reduces time involved in retrieving water."
+IDEA-46,Disappearing Languages,On Our Radar,4/25/2016 11:33,"provide a repository of resources for those who are trying to capture, teach, and/or revive their culture's language that is in danger of disappearing. ""Story Corps"" meets Wolfram Research?"
+IDEA-45,VR to close Achievement Gap,On Our Radar,4/25/2016 11:31,"A new study recently found that there are physical differences in the size and structure of the brain between kids whose parents earn less than 25k and those whose earn over 150k per year. While the study was not able to pinpoint the exact cause, one plausible theory is those kids that have been exposed to enriched experiences like travel achieve higher outcomes then their peers who do not. One way to think about closing the gap is to provide similar opportunities to all children. While taking millions of kids worldwide on trips of a lifetime is not a realistic solution, I am curious how incorporating virtual reality explorations into the curriculum can help kids experience the Civil War (for example) by not only reading about it but actually being there. There are many university sponsored labs that are looking into VR but may not be thinking about opportunities to close the achievement gap."
+IDEA-44,Little Sister,On Our Radar,4/25/2016 11:30,"Provide a way for companies to build hardware products that collect and exchange user data to make promises about privacy that consumers can understand, trust, and make informed decisions about."
+IDEA-43,Youth Development,Unlikely for Labs,4/25/2016 11:29,"Tool that is easy to access, simple to navigate and creates lesson plans that achieve quality youth development outcomes on a consistent basis."
+IDEA-42,Method to preserve websites and chats,On Our Radar,4/25/2016 11:28,"Suite of software/add-ons that allow activists to save copies of Facbook groups, WhatsApp chats, etc. so that they will be preserved in cases of takedown. Often these resources go missing and current archiving tools do not suffice in all cases"
+IDEA-40,Interactive system for legal advice,Exploratory,4/25/2016 11:20,"provides information, notification, reminders and provide step by step guidance through complex legal situations such as immigration hearings, asylum hearings, application processes. SMS with natural language and multi-language capalities. 
+"
+IDEA-39,Math Solver,On Our Radar,4/25/2016 11:13,Tree that takes student step by step through solving an equation.
+IDEA-38,Trachoma Detection,On Our Radar,4/25/2016 11:11,"My idea regards an automatic diagnostic tool for trachoma. Trachoma is an infectious bacterial eye disease that leads to fuzzy vision and even blindness. Trachoma is highly prevalent in developing nations, and it's predicted that upwards of 80 million people are infected and more than 1 million are blind because of it. Furthermore, about 230 million people are at risk, and the disease causes $8 billion in losses annually. 
+
+The good news: the infection is treatable by antibiotics and, in some cases, surgery. To be treated however, communities have to wait for health workers to reach them with treatments, which can take quite a while. Trachoma is commonly diagnosed by looking at one's inner eyelid and using the WHO trachoma grading standards to identify the different stages."
+IDEA-37,Behavior Change Tracking,On Our Radar,4/25/2016 11:09,Using behavior tracking to determine answers to questions without asking those questions. Good for situations where someone may not be able to answer a question honestly or to assess accurately their own behavior. Harvard Bias Study: https://implicit.harvard.edu/implicit/selectatest.html-Game Strategy for career detemination:  https://www.knack.it/https://www.pymetrics.com/-Smart phone tracking to determine depression: ginger.io-Sensor/Smartband tracking of elderly family members to escalate physical/mental healthconcerns
+IDEA-36,MathOCR,On Our Radar,4/25/2016 11:08,image OCR for mathematical expressions
+IDEA-35,Reducing secondary trauma for Human Rights workers,On Our Radar,4/25/2016 11:04,"Human Rights activists are often tasked with close analysis of videos containing traumatic images of violations. By creating a plugin, videos can be visually filtered to reduce the traumatic potential while still enabling video to be analyzed. Everyday internet users could also use the plugin to censor reported videos across platforms. 
+"
+IDEA-34,Reducing the barrier for interview-driven data collection,On Our Radar,4/25/2016 11:03,"Frequently, humanitarian groups obtain quantitative and qualitative data through interviews. In order to capture this data in a structured and efficient way, it's likely technology would need to be implemented (over paper and pen). Too often mobile phones and tablets can create a barrier and trust issues especially in technology-poor or sensitive environments. Can we create an audio capture device that unobtrusively captures the interaction, and is the crowd transcribed with near zero-knowledge conveyed to the transcriber (maybe sending only a few words)."
+IDEA-33,Safe Passage for data In narrow-band environments,On Our Radar,4/25/2016 11:01,"A torrent-inspired mesh networking solution. A file in broken into chunks and chunks are encrypted with a private key. Other users can designate themselves as a data-carrier, carriers will silently receive chunks of this data that can be uploaded to a repo when they next connect to the internet. The app ensure safe and equal distribution of file chunks. Over time all file chunks would be received and the file is successfully and securely crowdsourced to the cloud."
+IDEA-32,Video management and processing for human rights,Exploratory,4/25/2016 10:58,"Video management and processing system with these components: 
+Create a central repo for the collection, processing, and search of timecoded tags for videos. This repo can aggregate tags generated by machines or humans and can help searchers connect to the organization holding the source video. Animated word clouds of the timecoded labels can also be generated. 
+
+A human rights organization can upload a bowdlerized video or video frames which can be distributed on an online platform for geoidentification. Similar to GeoGuesser, the crowd will pick the estimated location from a map and the aggregate/average location will by offered to the original uploader"" 
+
+Platform that allows human rights organizations to add descriptive metadata and tags to their media and submit that data to a searchable repository. In this manner organizations can share details amongst partners without exposing the source media. A human rights organization can upload a bowdlerized video or video frames which can be distributed on an online platform for geoidentification. Similar to GeoGuesser, the crowd will pick the estimated location from a map and the aggregate/average location will by offered to the original uploader"
+IDEA-31,Alternate Reality Game (ARG) for security training,Early Stage,4/25/2016 10:57,"Simulated platform where a user or organization can opt-in for training. Over the course of the game, the user will be contacted over various mediums by a simulated peer. In order to get the next piece of information, the user needs to set up various secure communications protocols. Upon successful completion of the game, the user/organization has set-up all tools needed for security."
+IDEA-29,MathIO,Exploratory,4/25/2016 10:49,"End to end math equation authoring and reading system. Creating and manipulating digital equations is difficult and often information is discarded in the publishing process. Useful for all who use online learning environments, but especially helpful for students with disabilities. 
+"
+IDEA-28,In Kind Donation Tracking,On Our Radar,4/25/2016 10:48,"When tools/goods are donated, how does the rationing work? The article notes a lending library, but who manages the time allotted for use, wait list, prioritization, etc.? Or when there are objects that users get to keep (e.g. tooth brushes, food, clothes, shoes, etc.), how do we ensure resources (goods) are evenly distributed across a community? Or alternatively, when funds are donated for disaster relief, who/how do people determine what to purchase for a community? What tools are being used to manage all this?"
+IDEA-27,Help activists to fill out strict reporting forms,Exploratory,4/25/2016 10:45,"From David B. , Design an easy to use interface into which activists can enter sections of relevant data. The tool will then format, render, and submit the report in the correct/required method to comply with standards. This could be useful for things like UN Universal Periodic Review report."
+IDEA-26,In Plain Sight Markov Chain Driven Encryption,Early Stage,4/25/2016 10:43,Utilizing markov-chain logic and an agreed upon body of literature + passphrase to encrypt text into human readable text. Ex) The phrase 'meet me at eight' when run through Shakespeare encryption may read 'Whether it is far nobler to be or not to be'. This text can be posted as plain text to any technology platform (or physical medium) and network filtering/monitoring wouldn't know to be suspect of it.
+IDEA-24,Sensors for Data Gathering,On Our Radar,4/25/2016 10:39,Hardware components for data gathering as component of other apps. Add sensors for water data or agricultural data for instance. http://www.theguardian.com/environment/2015/aug/21/middle-east-conflict-decrease-air-pollution-levels-iraq-baghdad-egypt-syria-study
+IDEA-23,Accessible Chemical Diagrams,On Our Radar,4/25/2016 10:36,"Auto convert chemical diagram images or draw chemical diagram images that are then rendered navigable and accessible and 3D printable 
+"
+IDEA-22,Service Referral Tools and Info Management,Exploratory,4/25/2016 10:34,"Social services referral decision tree  
+Social services referral app for victims of violence and abuse 
+App for crowd-sourcing keeping social service referral data up to date"
+IDEA-21,Math Support Finder,Mid Stage,4/25/2016 10:23,"user-facing webapp to help users figure out setup configurations, along with additional technologies, required on their device to support accessible reading of content containing MathML. 
+"
+IDEA-20,authentIcon,Early Stage,4/25/2016 10:21,"Authentication of crypto keys using icons rather than numbers. Unique icon represents number string. Allows same level of security with greater ease. 
+"
+IDEA-19,Accessible Image Repository/Registry,Early Stage,4/25/2016 10:20,"Resource for those using and making accessible content to find and share accessible digital images in a variety of modalities, including tactile files, audio files, 3D printer files, text description. 
+"
+IDEA-18,3D Printing for Health Education,Early Stage,4/25/2016 10:16,"Use 3D printing to meet needs of students requiring 3d models for health/reproductive education (e.g., students who are blind or have other disabilities). Kids with visual impairments have trouble accessing pictures and video. Although image descriptions and captioning help, hands on exploration of objects is the ideal way to learn especially in sex education. Researchers at Northern Illinois University have been focused on this issue for some time but think that 3D models will address the gap picture representation and very expensive anatomical models. NIU can consult on what TVIs need to educate blind kids around sex ed but they do not have the resources to design, distribute or store these models in a repository. Additionally this work could be used in developing countries. Lots to explore. 
+"
+IDEA-17,3D Printing for Accessible Education,Exploratory,4/25/2016 10:13,"Tools for making 3D printing more useful and easier for teachers and students looking to make and use accessible educational objects. Including a teacher-friendly repository of customizable learning objects, linkages to ebooks, metadata, trainings and design/print services. 
+"
+IDEA-16,SecureApp Generator,Mid Stage,4/25/2016 10:05,"A tool based on Benetech's Martus technology to allow users involved in data collection efforts to create their own write-only, open source data collection applications with end-to-end encryption, under their own branding, ""Powered by Martus."". 
+"
+IDEA-15,MathML Cloud,Mid Stage,4/25/2016 9:53,"A cloud-based app that automatically creates accurate images and image descriptions of mathematical expressions, while retaining the detailed math markup for reference. It allows content developers to accurately express digitized math and render it through visual display and alternative access means, such as synthetic speech and braille. 
+"
+IDEA-14,Code Alliance,Late Stage,4/25/2016 9:48,"A program to link highly skilled technical volunteers with nonprofits that develop open source software for social impact. 
+"
+IDEA-13,Poet (Describer),Exited,4/25/2016 9:45,"An open source, web-based tool that makes it easy to create image descriptions for images in existing DAISY or EPUB format books, and that allows crowdsourcing of image descriptions to reduce cost and delivery time for end-users. 
+"
