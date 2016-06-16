@@ -14,8 +14,7 @@
 		<table id="example" class="display" width="100%"></table>
 
 		<script>
-			ideas = [];
-			console.log("ideas:",ideas);
+			var data;
 	
 			$(document).ready(function() {
 			
@@ -25,14 +24,12 @@
 					skipEmptyLines: true,
 					delimiter: ",",
 					header: true,
-					complete: function(results, file){console.log("Parsing complete:", results, file);ideas=results.data;console.log("ideas:",ideas);},
-					error: function(error, file){console.log("Parsing error:", error, file);}
+					complete: function(results){data = results;}
 				});
 				
-				console.log("ideas:",ideas);
 				
 				$('#example').DataTable( {
-					data: ideas,
+					data: data,
 					columns: [
 						{ title: "Key" },
 						{ title: "Summary" },
