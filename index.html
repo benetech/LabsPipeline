@@ -14,11 +14,11 @@
 		<table id="example" class="display" width="100%"></table>
 
 		<script>
+			var dataSet = [];
+			var ideas = [];
+	
 			$(document).ready(function() {
 			
-				var dataSet = [];
-				var ideas = [];
-				
 				Papa.parse("https://benetech.github.io/LabsPipeline/data/pipe.csv", 
 				{
 					download: true,
@@ -29,6 +29,7 @@
 					error: function(error, file){console.log("Parsing error:", error, file);}
 				});
 				
+				console.log("ideas:",ideas);
 				
 				$('#example').DataTable( {
 					data: ideas,
