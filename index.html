@@ -15,7 +15,8 @@
 
 		<script>
 			var data;
-	
+			var ideas;
+			
 			$(document).ready(function() {
 			
 				Papa.parse("https://benetech.github.io/LabsPipeline/data/pipe.csv", 
@@ -24,8 +25,15 @@
 					skipEmptyLines: true,
 					delimiter: ",",
 					header: true,
-					complete: function(results){data = results;}
+					complete: function(results){data = results.data;}
 				});
+				
+				for(var i in data)
+				{
+					arr[i] =  Object.keys(data[i]).map(function (key){return data[i][key]});
+				
+				}
+				
 				
 				
 				$('#example').DataTable( {
