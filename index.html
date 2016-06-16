@@ -20,6 +20,7 @@
 				Papa.parse("https://benetech.github.io/LabsPipeline/data/pipe.csv", 
 				{
 					download: true,
+					skipEmptyLines: true,
 					delimiter: ",",
 					header: true,
 					complete: function(results, file){console.log("Parsing complete:", results, file);dataSet=results;},
