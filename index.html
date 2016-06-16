@@ -15,6 +15,7 @@
 
 		<script>
 			ideas = [];
+			console.log("ideas:",ideas);
 	
 			$(document).ready(function() {
 			
@@ -24,7 +25,7 @@
 					skipEmptyLines: true,
 					delimiter: ",",
 					header: true,
-					complete: function(results, file){console.log("Parsing complete:", results, file);ideas=results.data;},
+					complete: function(results, file){console.log("Parsing complete:", results, file);ideas=results.data;console.log("ideas:",ideas);},
 					error: function(error, file){console.log("Parsing error:", error, file);}
 				});
 				
