@@ -30,7 +30,7 @@
 				
 				for(var i in data)
 				{
-					ideas.push(Object.keys(data[i]).map(function (key){return data[i][key]}));
+					ideas.push([data[i].Key,data[i].Summary,data[i].Status,data[i].Created,data[i].Description]);
 					console.log(i)
 				}
 				
