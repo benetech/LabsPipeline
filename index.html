@@ -27,9 +27,10 @@
 					error: function(error, file){console.log("Parsing error:", error, file);}
 				});
 				
+				ideas=dataSet.data;
 				
 				$('#example').DataTable( {
-					data: dataSet.data,
+					data: ideas,
 					columns: [
 						{ title: "Name" },
 						{ title: "Position" },
