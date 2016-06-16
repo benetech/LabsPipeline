@@ -1,0 +1,2406 @@
+{
+    "rss": {
+        "parsererror": {
+            "h3": [
+                "This page contains the following errors:",
+                "Below is a rendering of the page up to the first error."
+            ],
+            "div": {
+                "_style": "font-family:monospace;font-size:12px",
+                "__text": "error on line 1629 at column 49: xmlParseEntityRef: no name\n"
+            },
+            "_style": "display: block; white-space: pre; border: 2px solid #c77; padding: 0 1em 0 1em; margin: 1em; background-color: #fdd; color: black"
+        },
+        "channel": {
+            "title": "All Labs Pipeline Ideas (Benetech Jira)",
+            "link": "\nhttps://bugs.benetech.org/secure/IssueNavigator.jspa?requestId=12656\n",
+            "description": "An XML representation of a search request",
+            "language": "en-us",
+            "issue": {
+                "_start": "0",
+                "_end": "105",
+                "_total": "105"
+            },
+            "build-info": {
+                "version": "4.1.1",
+                "build-number": "522",
+                "build-date": "19-04-2010",
+                "edition": "enterprise"
+            },
+            "item": [
+                {
+                    "title": "[IDEA-142] Mobile Tactile Transportation Maps",
+                    "link": "https://bugs.benetech.org/browse/IDEA-142",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": {
+                            "br": "",
+                            "a": {
+                                "_href": "http://lighthouse-sf.org/braille-translation/braille-tactile-maps/",
+                                "__text": "http://lighthouse-sf.org/braille-translation/braille-tactile-maps/"
+                            },
+                            "__text": "Convert the tactile maps made by Lighthouse for the Blind in (SF) to a more convenient, mobile app (think google maps but verbally instructing blind user how to get where they want to go, that also communicates things like stairs, accessible areas, etc.) \n "
+                        }
+                    },
+                    "key": {
+                        "_id": "67553",
+                        "__text": "IDEA-142"
+                    },
+                    "summary": "Mobile Tactile Transportation Maps",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Tue, 14 Jun 2016 07:08:05 -0700",
+                    "updated": "Tue, 14 Jun 2016 07:08:21 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": "From Mercedes: The tactile maps they made require the use of a special Livescribe smart-pen and a corresponding braille map book. Converting it to a digital format would allow for \"on the go\", convenient, real time navigation with accessibility in mind for blind users.",
+                            "_id": "162027",
+                            "_author": "anhb",
+                            "_created": "Tue, 14 Jun 2016 07:08:21 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": {
+                            "customfieldname": "Submitted By",
+                            "customfieldvalues": {
+                                "customfieldvalue": "Mercedes Mack"
+                            },
+                            "_id": "customfield_10393",
+                            "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                        }
+                    }
+                },
+                {
+                    "title": "[IDEA-141] Natural Synthetic Voices",
+                    "link": "https://bugs.benetech.org/browse/IDEA-141",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": "Develop synthetic voices to sound like naturally speaking voices. I frequently hear at conferences and in our satisfaction surveys that members would like the voices to sound more natural in whatever reading tool they use for Bookshare. If you are able to achieve this cross platform, then it could also be potentially licensed to companies like Apple, etc, and bring in a revenue stream to Benetech. This is bigger picture for any accessible device that reads text, etc. to people."
+                    },
+                    "key": {
+                        "_id": "67552",
+                        "__text": "IDEA-141"
+                    },
+                    "summary": "Natural Synthetic Voices",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Tue, 14 Jun 2016 07:05:14 -0700",
+                    "updated": "Tue, 14 Jun 2016 07:05:14 -0700",
+                    "votes": "0",
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": {
+                            "customfieldname": "Submitted By",
+                            "customfieldvalues": {
+                                "customfieldvalue": "Ben Cooper"
+                            },
+                            "_id": "customfield_10393",
+                            "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                        }
+                    }
+                },
+                {
+                    "title": "[IDEA-140] Skills training for refugee women",
+                    "link": "https://bugs.benetech.org/browse/IDEA-140",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": [
+                            "REcharge Initiative is a non-profit organization that seeks to empower refugee women in the United States by providing them with an opportunity to build marketable technological skills and obtain employment in the Bay Area. REcharge Initiative seeks to achieve these outcomes by:",
+                            "1. Hosting workshops and planned classes to teach refugee women technology skills related to fields such as web development, graphic design and data science. ",
+                            "2. Providing these students with nanodegree certifications, including Microsoft Office Specialization (MOS), W3Schools HTML/CSS/JS, and Adobe Certified Associate (ACA) certifications, to legitimize their skills and trainings. ",
+                            "3. Connecting these women to employers in the Bay Area in order to ensure that they will be able to make a lasting impact in industry using the skills that they have acquired. ",
+                            "Our solution recognizes that refugees, especially refugee women face significant obstacles in gaining employment and assimilating and we seek to tackle this, as well as the gender imbalances in the tech industry."
+                        ]
+                    },
+                    "key": {
+                        "_id": "67551",
+                        "__text": "IDEA-140"
+                    },
+                    "summary": "Skills training for refugee women",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Tue, 14 Jun 2016 06:34:57 -0700",
+                    "updated": "Tue, 14 Jun 2016 06:34:57 -0700",
+                    "votes": "0",
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": {
+                            "customfieldname": "Submitted By",
+                            "customfieldvalues": {
+                                "customfieldvalue": {
+                                    "a": {
+                                        "_href": "mailto:rechargeinitiative@gmail.com",
+                                        "__text": "rechargeinitiative@gmail.com"
+                                    },
+                                    "__text": "\nSpandana Singh, \n , (415)528-0013\n"
+                                }
+                            },
+                            "_id": "customfield_10393",
+                            "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                        }
+                    }
+                },
+                {
+                    "title": "[IDEA-139] Green cleaning product",
+                    "link": "https://bugs.benetech.org/browse/IDEA-139",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": {
+                            "br": [
+                                "",
+                                ""
+                            ],
+                            "__text": "I am developing a concept for a green cleaning product in \n a dissolvable tablet form in biodegradable packaging.\n I also plan to develop a reusable dispenser to be sold"
+                        }
+                    },
+                    "key": {
+                        "_id": "67550",
+                        "__text": "IDEA-139"
+                    },
+                    "summary": "Green cleaning product",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10022",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/no.png",
+                        "__text": "Unlikely for Labs"
+                    },
+                    "created": "Tue, 14 Jun 2016 06:29:15 -0700",
+                    "updated": "Tue, 14 Jun 2016 06:29:26 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": "Pipeline action Move to Unlikely for Labs executed on 6/14/2016 6:29:23 AM by Anh Bui",
+                            "_id": "162026",
+                            "_author": "anhb",
+                            "_created": "Tue, 14 Jun 2016 06:29:26 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Date Moved to Unlikely",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Tue, 14 Jun 2016 00:00:00 -0700"
+                                },
+                                "_id": "customfield_10439",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "a": {
+                                            "_href": "mailto:krt.epi@gmail.com",
+                                            "__text": "krt.epi@gmail.com"
+                                        },
+                                        "__text": "\nKerra Tolliver, \n, (347)343-0117\n"
+                                    }
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "\n[IDEA-138] Easier passwords for people with print disabilities or children\n",
+                    "link": "https://bugs.benetech.org/browse/IDEA-138",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": {
+                            "br": [
+                                "",
+                                ""
+                            ],
+                            "a": {
+                                "_href": "http://bigthink.com/ideafeed/passwords-that-only-your-unconscious-mind-remembers",
+                                "__text": "http://bigthink.com/ideafeed/passwords-that-only-your-unconscious-mind-remembers"
+                            },
+                            "__text": "a. Do further research into \"unconscious\" data for passwords. \n \n b. Research other alternatives to memorizing a string to add layers of protection to simple passwords, like choosing a sequence of images"
+                        }
+                    },
+                    "key": {
+                        "_id": "67549",
+                        "__text": "IDEA-138"
+                    },
+                    "summary": "\nEasier passwords for people with print disabilities or children\n",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Tue, 14 Jun 2016 06:25:53 -0700",
+                    "updated": "Tue, 14 Jun 2016 06:59:01 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": [
+                                "Submitted on 3/6/16 via email, with additional notes from Caden: is something that has come up a few times for Bookshare and comes from the conflicting needs of users and security",
+                                "We have users who are:",
+                                "From the security perspective, we don't want long, complicated passwords for their own sake, we want something that is difficult to guess. For a password, the longer it is and the more symbols it can contain, the harder it is to guess. Sometimes people will refer to the harder to guess password as having \"more entropy\". We can offer password alternatives that provide high entropy. For example,",
+                                "1. If you pay for a Coursera course, whenever you hand in an assignment, it takes your picture with a webcam, and you are required to type the same sentence, something like, \"This is really my assignment blah blah blah\". I'm not sure if anything intelligent happens with facial recognition on the picture, but the site claims that the timing when typing the sentence is fairly unique between users and it would clue Coursera in to a problem if someone other than the original user typed in the sentence.",
+                                "2. The user could answer a number of multiple choice questions that only they know. \"Which one of these pictures do you like the most\"? (The problem with this is that if there are only 3 possible responses, it is easy for a hacker to guess-- far easier than guessing one of the letters of the alphabet in a password.)",
+                                "3. The password could come from something the user has, like a Google Authenticator token that generates 6 digit numbers for the user to enter.",
+                                "I don't think any of these answers are great, but I hope they help to describe the problem. Also, any combination can be combined to get a higher entropy equivalent to a password. (Like, short password + picture + typing a phrase.)",
+                                "It may help to brainstorm solutions for one particular user problem since some of them are at odds with each other. For example, a solution involving choosing pictures might help someone who is dyslexic but that wouldn't help someone who is blind. It might also be a cool project to define a password framework, where we could plug in any of these solutions to get a desired level of entropy, and people could contribute additional password-substitute plugins to the framework.",
+                                "One more thought-- I use LastPass.com to manage passwords. I enter my master password and it automatically fills in site passwords for me. How great would it be to have a password manager where the master password were one of these more-accessible alternatives, and then the password manager filled in the conventional passwords on incompatible sites for you? "
+                            ],
+                            "ul": {
+                                "li": [
+                                    "Young children, in preschool and kindergarten",
+                                    "Have reading-related disabilities like dyslexia and blindness",
+                                    {
+                                        "br": "",
+                                        "__text": "Physically limited on the keyboard so that entering long strings is difficult\n For these users, memorizing a long, nonsensical password which must contain letters, numbers, and symbols, but not any dictionary words or personal information is very difficult."
+                                    }
+                                ],
+                                "_class": "alternate",
+                                "_type": "square"
+                            },
+                            "_id": "162025",
+                            "_author": "anhb",
+                            "_created": "Tue, 14 Jun 2016 06:26:19 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Community of Partners Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10412",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Community of Users Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10411",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Cost Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10413",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Current Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10406",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Existing Data Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10416",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Exit Strategies Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10415",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Future Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10407",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Impact Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10402",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Internal Champion Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10414",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Legality Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10405",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Mission Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10404",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Need Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10403",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Program Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10408",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Caden Howell"
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Talent Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10409",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technical Risk Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10410",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Weighted Score",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "40.0"
+                                },
+                                "_id": "customfield_10426",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:float"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "[IDEA-137] Accessibility Shame Report",
+                    "link": "https://bugs.benetech.org/browse/IDEA-137",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": "Shame report website/blog for software providers and web sites who have poor accessibility. Allows people to upload stories, which may get voted up reddit or stack-overflow-style. The goal is for stories to go viral which will generate some pressure to fix the software. "
+                    },
+                    "key": {
+                        "_id": "67548",
+                        "__text": "IDEA-137"
+                    },
+                    "summary": "Accessibility Shame Report",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Tue, 14 Jun 2016 06:22:57 -0700",
+                    "updated": "Tue, 14 Jun 2016 06:23:11 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": "Submitted via email on 3/6/16. ",
+                            "_id": "162024",
+                            "_author": "anhb",
+                            "_created": "Tue, 14 Jun 2016 06:23:11 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": {
+                            "customfieldname": "Submitted By",
+                            "customfieldvalues": {
+                                "customfieldvalue": "Caden Howell"
+                            },
+                            "_id": "customfield_10393",
+                            "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                        }
+                    }
+                },
+                {
+                    "title": "[IDEA-136] Puppy Mill Reporting Registry",
+                    "link": "https://bugs.benetech.org/browse/IDEA-136",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": "Allow crowd-sourced reporting of pet stores who sell from puppy mills and which puppy mills they sell from."
+                    },
+                    "key": {
+                        "_id": "67547",
+                        "__text": "IDEA-136"
+                    },
+                    "summary": "Puppy Mill Reporting Registry",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10022",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/no.png",
+                        "__text": "Unlikely for Labs"
+                    },
+                    "created": "Tue, 14 Jun 2016 06:21:36 -0700",
+                    "updated": "Tue, 14 Jun 2016 06:22:01 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": [
+                            {
+                                "p": "Submitted by email on 3/6. ",
+                                "_id": "162022",
+                                "_author": "anhb",
+                                "_created": "Tue, 14 Jun 2016 06:21:52 -0700"
+                            },
+                            {
+                                "p": "Pipeline action Move to Unlikely for Labs executed on 6/14/2016 6:21:55 AM by Anh Bui",
+                                "_id": "162023",
+                                "_author": "anhb",
+                                "_created": "Tue, 14 Jun 2016 06:22:01 -0700"
+                            }
+                        ]
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Date Moved to Unlikely",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Tue, 14 Jun 2016 00:00:00 -0700"
+                                },
+                                "_id": "customfield_10439",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:datepicker"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Caden Howell"
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "[IDEA-135] Mechanical Turk image descriptions",
+                    "link": "https://bugs.benetech.org/browse/IDEA-135",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": "Content creators want accurate, automated descriptions of complex graphics so they can provide alternative text. Create an API that accepts an image url and responds with a description. The API would engage Mechanical Turk workers to describe images."
+                    },
+                    "key": {
+                        "_id": "67437",
+                        "__text": "IDEA-135"
+                    },
+                    "summary": "Mechanical Turk image descriptions",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Thu, 2 Jun 2016 14:09:33 -0700",
+                    "updated": "Thu, 2 Jun 2016 14:09:33 -0700",
+                    "votes": "0",
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Next Steps",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "br": "",
+                                        "__text": "\nMore from the submitter: \"TapTapSee does something very similar via Cloudsight API, but the responses are not oriented towards charts, graphics, and reports. \n Using the same web workers with a more robust description framework geared towards graphics (POET with NCAM guidelines), we can provide a more accurate, automated description platform for companies to quickly describe content in bulk.\"\n"
+                                    }
+                                },
+                                "_id": "customfield_10394",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+                            },
+                            {
+                                "customfieldname": "Owner",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Sue-Ann Ma"
+                                },
+                                "_id": "customfield_10392",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "a": {
+                                            "_href": "mailto:ideas@ckundo.com",
+                                            "__text": "ideas@ckundo.com"
+                                        },
+                                        "__text": "\nCameron (benetech+\n) via Benetech site\n"
+                                    }
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "[IDEA-134] Encrypted document search tool",
+                    "link": "https://bugs.benetech.org/browse/IDEA-134",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": {
+                            "span": {
+                                "_class": "error",
+                                "__text": "[1]"
+                            },
+                            "__text": "Support digital privacy via a free, open source tool enabling plain or encrypted document search on or offline, eliminating the need for costly cloud servers specialized in delivering search results \n. In doing so, search terms & documents are no longer vulnerable to data breaches or forced access via authorities."
+                        }
+                    },
+                    "key": {
+                        "_id": "67436",
+                        "__text": "IDEA-134"
+                    },
+                    "summary": "Encrypted document search tool",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Thu, 2 Jun 2016 14:07:19 -0700",
+                    "updated": "Thu, 2 Jun 2016 14:07:19 -0700",
+                    "votes": "0",
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Next Steps",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "br": [
+                                            "",
+                                            "",
+                                            ""
+                                        ],
+                                        "a": [
+                                            {
+                                                "_href": "https://blog.wikimedia.org/2014/01/06/wikimedia-moving-to-elasticsearch/",
+                                                "__text": "https://blog.wikimedia.org/2014/01/06/wikimedia-moving-to-elasticsearch/"
+                                            },
+                                            {
+                                                "_href": "https://protonmail.com/support/knowledge-base/search/",
+                                                "__text": "https://protonmail.com/support/knowledge-base/search/"
+                                            }
+                                        ],
+                                        "__text": "\nMore from Simon: \"I have over 35 years software development experience making me an expert in algorithms. This experience put me in a position to invent an original search algorithm not requiring specialized server software to perform the search. This came from an own desire to be able to securely search larger quantities of encrypted files (e.g. GBs of emails) either online (e.g. from a cell phone) or offline without giving away / entrusting the password to a third party server; AFAIK there is currently no known technology available to do this; even ProtonMail has not found a way [2].\" \n \n [1] \n \n [2] \n\n"
+                                    }
+                                },
+                                "_id": "customfield_10394",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+                            },
+                            {
+                                "customfieldname": "Owner",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "John Higgins"
+                                },
+                                "_id": "customfield_10392",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "a": {
+                                            "_href": "mailto:simonhf@gmail.com",
+                                            "__text": "simonhf@gmail.com"
+                                        },
+                                        "__text": "\nSimon Hardy-Francis (\n) via Benetech site\n"
+                                    }
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "[IDEA-132] Poet Image Description Training Module",
+                    "link": "https://bugs.benetech.org/browse/IDEA-132",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": "expand our current training platform to provide more guidelines and interactive tools for content authors looking to make diagrams/images accessible. "
+                    },
+                    "key": {
+                        "_id": "67334",
+                        "__text": "IDEA-132"
+                    },
+                    "summary": "Poet Image Description Training Module",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10019",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/3.png",
+                        "__text": "Mid Stage"
+                    },
+                    "created": "Thu, 26 May 2016 13:11:39 -0700",
+                    "updated": "Tue, 14 Jun 2016 16:02:23 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": "Pipeline action Move into Mid Stage executed on 5/26/2016 1:12:24 PM by Sue-Ann Ma",
+                            "_id": "161488",
+                            "_author": "sueannm",
+                            "_created": "Thu, 26 May 2016 13:12:26 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Community of Partners Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10412",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Community of Users Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10411",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Cost Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10413",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Current Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10406",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Existing Data Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10416",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Exit Strategies Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10415",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Future Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10407",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Impact Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10402",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Internal Champion Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10414",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Legality Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10405",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Mission Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10404",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Need Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10403",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Next Steps",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "\nwaiting to kick-off Sandisk volunteer program to complete the work started by Benetech engineering\n"
+                                },
+                                "_id": "customfield_10394",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+                            },
+                            {
+                                "customfieldname": "Process Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Training "
+                                        },
+                                        {
+                                            "__cdata": " Content Standards Development "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10418",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Program Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10408",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Sue-Ann"
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Talent Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10409",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technical Risk Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10410",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technology Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Content "
+                                        },
+                                        {
+                                            "__cdata": " Media Description "
+                                        },
+                                        {
+                                            "__cdata": " Accessibility "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10417",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "User Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Youth "
+                                        },
+                                        {
+                                            "__cdata": " Disabilities "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10420",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Vertical Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Global Literacy "
+                                        },
+                                        {
+                                            "__cdata": " Education "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10421",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Weighted Score",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "53.0"
+                                },
+                                "_id": "customfield_10426",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:float"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "[IDEA-131] Buy Accessible",
+                    "link": "https://bugs.benetech.org/browse/IDEA-131",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": "best practice guidelines provided to/for decision-makers regarding the purchase of accessible educational materials"
+                    },
+                    "key": {
+                        "_id": "67333",
+                        "__text": "IDEA-131"
+                    },
+                    "summary": "Buy Accessible",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Thu, 26 May 2016 12:56:28 -0700",
+                    "updated": "Fri, 27 May 2016 14:03:12 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": [
+                                "Related suggestion from Fred Slone on referral services as being part of the buy accessible program:",
+                                "Thought you might find some of this of interest. (Sorry could not find the form where I am supposed to submit labs ideas)",
+                                {
+                                    "a": {
+                                        "_href": "http://www.ednetinsight.com/news-alerts/from-the-editor/sbir-supports-ed-tech-developers.html",
+                                        "__text": "http://www.ednetinsight.com/news-alerts/from-the-editor/sbir-supports-ed-tech-developers.html"
+                                    }
+                                },
+                                "Article talks about Dept of Ed grantees who are small businesses operating in the Ed Tech space.",
+                                "EdSurge was awarded a Phase I contract that will allow it to building out its ed tech selection tool Concierge which aims to match schools' ed tech needs with appropriate vendor solutions. EdSurge will develop and test a prototype of the platform with improved capability to generate information administrators need to make decisions on selecting technology tools to drive school improvement. The prototype will also provide a venue for education technology developers to propose tools to meet school needs",
+                                "Wondered if there might be a connection opportunity with the Concierge tool mentioned above and the Math Tool finder thingee Sue-Ann is working on. Would they consider broadening Concierge to accessibility tools as well? I am guessing that is not a part of Concierge at the moment. Interesting to think about getting a view into the \"venue for ed tech developers proposing technology to help schools\" and see what is coming",
+                                "As I read through the list of awardees, I wondered if anyone of them are even considering accessibility and then think about the possibilities for those who do perhaps grow or succeed in the market, is there an opportunity? Are there trends across a series of these types of companies and products where we could offer a cross cutting accessibility solution? "
+                            ],
+                            "_id": "161536",
+                            "_author": "sueannm",
+                            "_created": "Fri, 27 May 2016 12:48:27 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Community of Partners Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10412",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Community of Users Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10411",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Cost Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10413",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Current Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10406",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Existing Data Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10416",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Exit Strategies Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10415",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Future Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10407",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Impact Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10402",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Internal Champion Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10414",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Legality Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10405",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Mission Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10404",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Need Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10403",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Process Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Social Service Referral "
+                                        },
+                                        {
+                                            "__cdata": " Pedagogical Standards Development "
+                                        },
+                                        {
+                                            "__cdata": " Monitoring/Evaluation "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10418",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Program Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10408",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Fred Slone"
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Talent Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10409",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technical Risk Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10410",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technology Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " Accessibility "
+                                    }
+                                },
+                                "_id": "customfield_10417",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "User Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Youth "
+                                        },
+                                        {
+                                            "__cdata": " Disabilities "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10420",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Vertical Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Global Literacy "
+                                        },
+                                        {
+                                            "__cdata": " Education "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10421",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Weighted Score",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "62.0"
+                                },
+                                "_id": "customfield_10426",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:float"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "[IDEA-127] Automated descriptions for images",
+                    "link": "https://bugs.benetech.org/browse/IDEA-127",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": "automated extraction of key information from diagrams and images"
+                    },
+                    "key": {
+                        "_id": "67169",
+                        "__text": "IDEA-127"
+                    },
+                    "summary": "Automated descriptions for images",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Mon, 9 May 2016 15:49:47 -0700",
+                    "updated": "Fri, 27 May 2016 14:08:08 -0700",
+                    "votes": "0",
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Community of Partners Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10412",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Community of Users Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10411",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Cost Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10413",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Current Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10406",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Existing Data Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10416",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Exit Strategies Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10415",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Future Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10407",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Impact Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10402",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Internal Champion Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10414",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Legality Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10405",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Mission Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10404",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Need Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10403",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Process Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Volunteering "
+                                        },
+                                        {
+                                            "__cdata": " Crowdsourcing "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10418",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Program Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10408",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Sue-Ann"
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Talent Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10409",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technical Risk Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10410",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technology Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Content "
+                                        },
+                                        {
+                                            "__cdata": " Machine Learning "
+                                        },
+                                        {
+                                            "__cdata": " Personalization "
+                                        },
+                                        {
+                                            "__cdata": " Localization "
+                                        },
+                                        {
+                                            "__cdata": " Accessibility "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10417",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "User Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Youth "
+                                        },
+                                        {
+                                            "__cdata": " Disabilities "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10420",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Vertical Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Global Literacy "
+                                        },
+                                        {
+                                            "__cdata": " Education "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10421",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Weighted Score",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "46.0"
+                                },
+                                "_id": "customfield_10426",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:float"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "[IDEA-126] OER Repository/Registry",
+                    "link": "https://bugs.benetech.org/browse/IDEA-126",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": [
+                            {
+                                "a": {
+                                    "_href": "https://www.oercommons.org/",
+                                    "__text": "https://www.oercommons.org/"
+                                },
+                                "__text": "This might be similar to \n, but with more options. In light of the recent All Children Reading/World Vision call, there seems to be a demand for an open source collection with options that not only provide alternatives in access modes (braille, audio, etc.), but also serves various needs around the world (sign language, simplified language, alternative/local language, etc.). "
+                            },
+                            "This would be like a Bookshare 2.0, supporting additional means of access (modes, language, etc.) as well as emerging types of technology (videos, media rich content, etc.). We would also link to others like ABC, IA, OER Commons, etc."
+                        ]
+                    },
+                    "key": {
+                        "_id": "67105",
+                        "__text": "IDEA-126"
+                    },
+                    "summary": "OER Repository/Registry",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10022",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/no.png",
+                        "__text": "Unlikely for Labs"
+                    },
+                    "created": "Fri, 6 May 2016 08:27:55 -0700",
+                    "updated": "Fri, 27 May 2016 14:35:08 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": "Pipeline action Move to Unlikely for Labs executed on 5/27/2016 2:34:27 PM by Anh Bui. Sue-Ann will raise with Ginny as a potential strategic direction for Bookshare. ",
+                            "_id": "161547",
+                            "_author": "anhb",
+                            "_created": "Fri, 27 May 2016 14:35:08 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Next Steps",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "\nIs Learning Registry also a solution? Strategic direction for Bookshare? Need comes from the All Children Reading meeting in May 2016.\n"
+                                },
+                                "_id": "customfield_10394",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+                            },
+                            {
+                                "customfieldname": "Process Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Info Architecture "
+                                        },
+                                        {
+                                            "__cdata": " Crowdsourcing "
+                                        },
+                                        {
+                                            "__cdata": " Community Building "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10418",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Sue-Ann"
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Technology Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Content "
+                                        },
+                                        {
+                                            "__cdata": " Personalization "
+                                        },
+                                        {
+                                            "__cdata": " Media Description "
+                                        },
+                                        {
+                                            "__cdata": " Localization "
+                                        },
+                                        {
+                                            "__cdata": " Distribution "
+                                        },
+                                        {
+                                            "__cdata": " Data Storage "
+                                        },
+                                        {
+                                            "__cdata": " Data Exchange "
+                                        },
+                                        {
+                                            "__cdata": " Accessibility "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10417",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "User Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Underserved "
+                                        },
+                                        {
+                                            "__cdata": " Unconnected "
+                                        },
+                                        {
+                                            "__cdata": " Poverty "
+                                        },
+                                        {
+                                            "__cdata": " Disabilities "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10420",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Vertical Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Quality of Life "
+                                        },
+                                        {
+                                            "__cdata": " Global Literacy "
+                                        },
+                                        {
+                                            "__cdata": " Education "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10421",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "[IDEA-124] Mashup of GreatSchools and WalkScore",
+                    "link": "https://bugs.benetech.org/browse/IDEA-124",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": [
+                            "Idea: To help families find communities that are both walkable (environmental benefit) and have good schools (ideally public ones). If it's possible to include average cost of living, or cost to buy or rent a \"typical\" apartment or home, that would be a bonus. Ability to search to narrow what you are looking for etc.",
+                            "I have looked for stuff that combines this type of info with no luck...",
+                            {
+                                "a": {
+                                    "_href": "http://www.greatschools.org/",
+                                    "__text": "http://www.greatschools.org/"
+                                }
+                            },
+                            {
+                                "a": {
+                                    "_href": "https://www.walkscore.com/",
+                                    "__text": "https://www.walkscore.com/"
+                                }
+                            },
+                            {
+                                "br": [
+                                    "",
+                                    "",
+                                    "",
+                                    "",
+                                    "",
+                                    "",
+                                    "",
+                                    ""
+                                ],
+                                "__text": "Social Impact: Moderate Impact\n Market Opportunity: Not Sure\n How Achievable: Definitely will achieve\n How Fundable: Not Sure\n Internal Champion: Yes\n Champion: Anna Berns\n Potential Partners: Not sure\n Comments: Not sure what kind of APIs the sites have, but I've seen each of them integrated into other sites, so presumably there is something, I've just never seen them together.\n Submitters: Anna Berns"
+                            }
+                        ]
+                    },
+                    "key": {
+                        "_id": "67025",
+                        "__text": "IDEA-124"
+                    },
+                    "summary": "Mashup of GreatSchools and WalkScore",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10022",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/no.png",
+                        "__text": "Unlikely for Labs"
+                    },
+                    "created": "Mon, 2 May 2016 12:30:37 -0700",
+                    "updated": "Tue, 14 Jun 2016 06:46:59 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": "Pipeline action Move to Unlikely for Labs executed on 5/27/2016 12:51:22 PM by Anh Bui",
+                            "_id": "161537",
+                            "_author": "anhb",
+                            "_created": "Fri, 27 May 2016 12:51:23 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": {
+                            "customfieldname": "Submitted By",
+                            "customfieldvalues": {
+                                "customfieldvalue": "Anna Berns"
+                            },
+                            "_id": "customfield_10393",
+                            "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                        }
+                    }
+                },
+                {
+                    "title": "[IDEA-114] Mobile Poet for Math",
+                    "link": "https://bugs.benetech.org/browse/IDEA-114",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": "Real-time access to math, for situations like classroom learning where print disabled students might need immediate transcription of math content. "
+                    },
+                    "key": {
+                        "_id": "66988",
+                        "__text": "IDEA-114"
+                    },
+                    "summary": "Mobile Poet for Math",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10016",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/0.png",
+                        "__text": "On Our Radar"
+                    },
+                    "created": "Thu, 28 Apr 2016 11:14:02 -0700",
+                    "updated": "Tue, 14 Jun 2016 06:50:31 -0700",
+                    "votes": "0",
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Community of Partners Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10412",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Community of Users Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10411",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Cost Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10413",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Current Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10406",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Existing Data Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10416",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Exit Strategies Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 0 "
+                                    }
+                                },
+                                "_id": "customfield_10415",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Future Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10407",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Impact Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10402",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Internal Champion Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10414",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Legality Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10405",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Mission Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10404",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Need Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10403",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Next Steps",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "\nThere was some prior work completed by Adam with a GSOC intern 2015 to mock an iOS prototype of this tool.\n"
+                                },
+                                "_id": "customfield_10394",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textarea"
+                            },
+                            {
+                                "customfieldname": "Process Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Volunteering "
+                                        },
+                                        {
+                                            "__cdata": " Micro Transaction "
+                                        },
+                                        {
+                                            "__cdata": " Crowdsourcing "
+                                        },
+                                        {
+                                            "__cdata": " Community Building "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10418",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Program Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10408",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Sue-Ann"
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Talent Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10409",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technical Risk Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10410",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technology Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Content "
+                                        },
+                                        {
+                                            "__cdata": " Personalization "
+                                        },
+                                        {
+                                            "__cdata": " Accessibility "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10417",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "User Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Youth "
+                                        },
+                                        {
+                                            "__cdata": " Disabilities "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10420",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Vertical Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Global Literacy "
+                                        },
+                                        {
+                                            "__cdata": " Education "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10421",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Weighted Score",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "51.0"
+                                },
+                                "_id": "customfield_10426",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:float"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "\n[IDEA-113] EPUB Accessibility Certification/Checker\n",
+                    "link": "https://bugs.benetech.org/browse/IDEA-113",
+                    "project": {
+                        "_id": "10291",
+                        "_key": "IDEA",
+                        "__text": "Labs Pipeline"
+                    },
+                    "description": {
+                        "p": {
+                            "a": {
+                                "_href": "https://diagram.herokuapp.com/image_book/image_check",
+                                "__text": "https://diagram.herokuapp.com/image_book/image_check"
+                            },
+                            "__text": "facilitate review of how EPUB3 files match up against accessibility best practices. This is critical if we are to build out a Benetech certification program and can leverage some of the Poet File Checker (\n) that we had previously developed. "
+                        }
+                    },
+                    "key": {
+                        "_id": "66986",
+                        "__text": "IDEA-113"
+                    },
+                    "summary": "EPUB Accessibility Certification/Checker",
+                    "type": {
+                        "_id": "20",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/ideas-icon.png",
+                        "__text": "Idea"
+                    },
+                    "status": {
+                        "_id": "10017",
+                        "_iconUrl": "https://wiki.benetech.org/download/attachments/62653172/1.png",
+                        "__text": "Exploratory"
+                    },
+                    "created": "Thu, 28 Apr 2016 11:10:41 -0700",
+                    "updated": "Fri, 27 May 2016 13:01:25 -0700",
+                    "votes": "0",
+                    "comments": {
+                        "comment": {
+                            "p": "Pipeline action Move into Exploratory executed on 5/13/2016 3:31:42 PM by Anh Bui",
+                            "_id": "160961",
+                            "_author": "anhb",
+                            "_created": "Fri, 13 May 2016 15:31:44 -0700"
+                        }
+                    },
+                    "attachments": "",
+                    "subtasks": "",
+                    "customfields": {
+                        "customfield": [
+                            {
+                                "customfieldname": "Community of Partners Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10412",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Community of Users Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10411",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Cost Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10413",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Current Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10406",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Existing Data Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10416",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Exit Strategies Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10415",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Future Money Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10407",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Impact Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10402",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Internal Champion Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10414",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Legality Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10405",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Mission Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10404",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Need Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10403",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Process Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Monitoring/Evaluation "
+                                        },
+                                        {
+                                            "__cdata": " Content Standards Development "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10418",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Program Fit Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 2 "
+                                    }
+                                },
+                                "_id": "customfield_10408",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Submitted By",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "Sue-Ann"
+                                },
+                                "_id": "customfield_10393",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+                            },
+                            {
+                                "customfieldname": "Talent Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10409",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technical Risk Rating",
+                                "customfieldvalues": {
+                                    "customfieldvalue": {
+                                        "__cdata": " 1 "
+                                    }
+                                },
+                                "_id": "customfield_10410",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:select"
+                            },
+                            {
+                                "customfieldname": "Technology Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Content "
+                                        },
+                                        {
+                                            "__cdata": " Accessibility "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10417",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "User Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " General Population "
+                                        },
+                                        {
+                                            "__cdata": " Disabilities "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10420",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Vertical Categories",
+                                "customfieldvalues": {
+                                    "customfieldvalue": [
+                                        {
+                                            "__cdata": " Global Literacy "
+                                        },
+                                        {
+                                            "__cdata": " Education "
+                                        }
+                                    ]
+                                },
+                                "_id": "customfield_10421",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+                            },
+                            {
+                                "customfieldname": "Weighted Score",
+                                "customfieldvalues": {
+                                    "customfieldvalue": "66.0"
+                                },
+                                "_id": "customfield_10426",
+                                "_key": "com.atlassian.jira.plugin.system.customfieldtypes:float"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": ""
+                }
+            ]
+        },
+        "_version": "0.92"
+    }
+}
