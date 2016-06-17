@@ -19,7 +19,7 @@
 					skipEmptyLines: true,
 					delimiter: ",",
 					header: true,
-					complete: function(results){data = results.data;go();}
+					complete: function(results){data = results.data; transformData();}
 				});
 				
 		</script>
@@ -30,18 +30,17 @@
 		
 		<h1> Benetech Labs Idea Pipeline </h1>
 		
-		<table id="example" class="display" width="100%"></table>
+		<table id="example" class="display" width="80%" data-order='[[2, "asc"]]' data-page-length='50'></table>
 		
 		<script>
 		
-		function go(){
+		function transformData(){
 			var data_length = data.length;
 			console.log(data_length);
 					
 			for(var i = 0; i < data_length; i++)
 				{
 					ideas.push([data[i].Key,data[i].Summary,data[i].Status,data[i].Created,data[i].Description]);
-					console.log(i)
 				}
 				
 			$(document).ready(function() {	
