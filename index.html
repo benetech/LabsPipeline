@@ -14,6 +14,7 @@
 			var data2;
 			var ideas = [];
 			var allKeyPresent = false;
+			var first_row_data;
 			
 			
 			Papa.parse("https://benetech.github.io/LabsPipeline/data/pipe.csv", 
@@ -26,7 +27,7 @@
 					step: function(row, parser){
 						if (!allKeyPresent) {
 							parser.pause(); // pause the parser
-							var first_row_data = row.data[0];
+							first_row_data = row.data[0];
 							// Now check object keys, if it match
 							if (('Key' in first_row_data) && ('Summary' in first_row_data) && ('Status' in first_row_data) && ('Created' in first_row_data) && ('Description' in first_row_data)) {
 								//every required key is present
