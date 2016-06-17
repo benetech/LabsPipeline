@@ -30,19 +30,24 @@
 		
 		<script>
 			var ideas;
-			function transformData(){
+			var clean=[];
 			
+			function transformData(){
+						
+				results = results.substring(results.indexOf("\n") + 1);
 				results = results.substring(results.indexOf("\n") + 1);
 				results = results.substring(results.indexOf("\n") + 1);
 				results = results.substring(results.indexOf("\n") + 1);
 				results = results.substring(0,results.lastIndexOf("\n"));
 				results = results.substring(0,results.lastIndexOf("\n"));
 				
+				clean = function(results){
+				for (var i =0; i < results.length; i++){
+					clean.push([results[i][1],results[i][2],results[i][4],results[i][5],results[i][16]]);
+				}
+				}
 				
-				ideas = $.csv.toArrays(results);
-				
-				
-				
+				ideas = $.csv.toArrays(clean);			
 					
 				$(document).ready(function() {	
 					$('#example').DataTable( {
