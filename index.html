@@ -10,11 +10,11 @@
 		<script src="javascripts/jquery.dataTables.min.js"></script>
 		
 		<script>
-			var results;
+			var rawCSV;
 			
 			jQuery.get("https://benetech.github.io/LabsPipeline/data/pipe.csv",function(data){
-				results = data;	
-				transformData();
+				rawCSV = data;	
+				transformData(rawCSV);
 			});
 					
 				
@@ -29,32 +29,31 @@
 		<table id="example" class="display" align="center" width="100%" data-page-length='25'></table>
 		
 		<script>
-			var ideas;
-			var clean=[];
+			var cleanArray=[];
+			var csvArray;
 			
-			function transformData(){
+			function transformData(rawCSV){
 						
-				results = results.substring(results.indexOf("\n") + 1);
-				results = results.substring(results.indexOf("\n") + 1);
-				results = results.substring(results.indexOf("\n") + 1);
-				results = results.substring(results.indexOf("\n") + 1);
-				results = results.substring(0,results.lastIndexOf("\n"));
-				results = results.substring(0,results.lastIndexOf("\n"));
+				rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
+				rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
+				rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
+				rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
+				rawCSV = rawCSV.substring(0,rawCSV.lastIndexOf("\n"));
+				rawCSV = rawCSV.substring(0,rawCSV.lastIndexOf("\n"));
 				
-				function cleanData(results){
-				for (var i =0; i < results.length; i++){
-					clean.push([results[i][1],results[i][2],results[i][4],results[i][5],results[i][16]]);
+				csvArray = $.csv.toArrays(rawCSV);
+				
+				function cleanData(csvArray){
+				for (var i =0; i < csvArray.length; i++){
+					cleanArray.push([csvArray[i][1],csvArray[i][2],csvArray[i][4],csvArray[i][5],csvArray[i][16]]);
 				}
 				}
 				
-				cleanData(results);
-				
-				
-				ideas = $.csv.toArrays(clean);			
+				cleanData(csvArray);		
 					
 				$(document).ready(function() {	
 					$('#example').DataTable( {
-						data: ideas,
+						data: cleanArray,
 						columns: [
 							{ title: "Key" },
 							{ title: "Summary" },
