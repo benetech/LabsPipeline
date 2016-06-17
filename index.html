@@ -15,14 +15,7 @@
 			jQuery.get("https://benetech.github.io/LabsPipeline/data/pipe.csv",function(data){
 				results = data;			
 			});
-			
-			results = results.substring(results.indexOf("\n") + 1);
-			results = results.substring(results.indexOf("\n") + 1);
-			results = results.substring(results.indexOf("\n") + 1);
-			results = results.substring(0,results.lastIndexOf("\n"));
-			
-			
-			var ideas = $.csv.toArrays(results);
+					
 				
 		</script>
 			
@@ -35,6 +28,14 @@
 		<table id="example" class="display" align="center" width="100%" data-page-length='25'></table>
 		
 		<script>
+		
+			results = results.substring(results.indexOf("\n") + 1);
+			results = results.substring(results.indexOf("\n") + 1);
+			results = results.substring(results.indexOf("\n") + 1);
+			results = results.substring(0,results.lastIndexOf("\n"));
+			
+			
+			var ideas = $.csv.toArrays(results);
 				
 			$(document).ready(function() {	
 				$('#example').DataTable( {
