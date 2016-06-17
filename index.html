@@ -16,6 +16,12 @@
 				results = data;			
 			});
 			
+			results = results.substring(results.indexOf("\n") + 1);
+			results = results.substring(results.indexOf("\n") + 1);
+			results = results.substring(results.indexOf("\n") + 1);
+			results = results.substring(0,results.lastIndexOf("\n"));
+			
+			
 			var ideas = $.csv.toArrays(results);
 				
 		</script>
