@@ -10,8 +10,11 @@
 		<script src="javascripts/jquery.dataTables.min.js"></script>
 		
 		<script>
-			var data;
+			var data =[];
+			var data2;
 			var ideas = [];
+			var allKeyPresent = false;
+			
 			
 			Papa.parse("https://benetech.github.io/LabsPipeline/data/pipe.csv", 
 				{
@@ -19,7 +22,42 @@
 					skipEmptyLines: true,
 					delimiter: ",",
 					header: true,
-					complete: function(results){data = results.data; transformData();}
+										
+					step: function(row, parser){
+						if (!allKeyPresent) {
+							parser.pause(); // pause the parser
+							var first_row_data = row.data[0];
+							// Now check object keys, if it match
+							if (('Key' in first_row_data) && ('Summary' in first_row_data) && ('Status' in first_row_data) && ('Created' in first_row_data) && ('Description' in first_row_data)) {
+								//every required key is present
+								allKeyPresent = true;				
+								parser.resume();
+							} else{
+								//some key is missing, abort parsing
+								parser.abort();
+							}
+
+						} else{ // we already match the header, all required key is present
+
+							data.push(row.data);
+
+						}
+
+					}
+				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					complete: function(results){data2 = results.data; transformData();}
 				});
 				
 		</script>
@@ -30,7 +68,7 @@
 		
 		<h1> Benetech Labs Idea Pipeline </h1>
 		
-		<table id="example" class="display" align="center" width="80%" data-order='[[2, "asc"]]' data-page-length='50'></table>
+		<table id="example" class="display" align="center" width="100%" data-page-length='25'></table>
 		
 		<script>
 		
