@@ -6,48 +6,17 @@
 		<title>Labs Pipeline by benetech</title>
 		<LINK href="stylesheets/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="javascripts/papaparse.min.js"></script>
+		<script src="javascripts/jquery.csv.min.js"></script>
 		<script src="javascripts/jquery.dataTables.min.js"></script>
 		
 		<script>
-			var data =[];
-			var data2;
-			var ideas = [];
-			var allKeyPresent = false;
-			var first_row_data;
+			var results;
 			
+			jQuery.get("https://benetech.github.io/LabsPipeline/data/pipe.csv",function(data){
+				results = data;			
+			});
 			
-			Papa.parse("https://benetech.github.io/LabsPipeline/data/pipe.csv", 
-				{
-					download: true,
-					skipEmptyLines: true,
-					delimiter: ",",
-					header: true,
-										
-					step: function(row, parser){
-						if (!allKeyPresent) {
-							parser.pause(); // pause the parser
-							first_row_data = row.data[0];
-							// Now check object keys, if it match
-							if (('Key' in first_row_data) && ('Summary' in first_row_data) && ('Status' in first_row_data) && ('Created' in first_row_data) && ('Description' in first_row_data)) {
-								//every required key is present
-								allKeyPresent = true;				
-								parser.resume();
-							} else{
-								//some key is missing, abort parsing
-								parser.abort();
-							}
-
-						} else{ // we already match the header, all required key is present
-
-							data.push(row.data);
-
-						}
-
-					},		
-					
-					complete: function(results){data2 = results.data; transformData();}
-				});
+			var ideas = $.csv.toArrays(results);
 				
 		</script>
 			
@@ -60,15 +29,6 @@
 		<table id="example" class="display" align="center" width="100%" data-page-length='25'></table>
 		
 		<script>
-		
-		function transformData(){
-			var data_length = data.length;
-			console.log(data_length);
-					
-			for(var i = 0; i < data_length; i++)
-				{
-					ideas.push([data[i].Key,data[i].Summary,data[i].Status,data[i].Created,data[i].Description]);
-				}
 				
 			$(document).ready(function() {	
 				$('#example').DataTable( {
