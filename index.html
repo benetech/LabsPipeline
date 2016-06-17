@@ -13,7 +13,8 @@
 			var results;
 			
 			jQuery.get("https://benetech.github.io/LabsPipeline/data/pipe.csv",function(data){
-				results = data;			
+				results = data;	
+				transformData();
 			});
 					
 				
@@ -29,28 +30,30 @@
 		
 		<script>
 		
-			results = results.substring(results.indexOf("\n") + 1);
-			results = results.substring(results.indexOf("\n") + 1);
-			results = results.substring(results.indexOf("\n") + 1);
-			results = results.substring(0,results.lastIndexOf("\n"));
+			function transformData(){
 			
-			
-			var ideas = $.csv.toArrays(results);
+				results = results.substring(results.indexOf("\n") + 1);
+				results = results.substring(results.indexOf("\n") + 1);
+				results = results.substring(results.indexOf("\n") + 1);
+				results = results.substring(0,results.lastIndexOf("\n"));
 				
-			$(document).ready(function() {	
-				$('#example').DataTable( {
-					data: ideas,
-					columns: [
-						{ title: "Key" },
-						{ title: "Summary" },
-						{ title: "Status" },
-						{ title: "Created" },
-						{ title: "Description" }
-					]
-				} );
 				
-			} );	
-				
+				var ideas = $.csv.toArrays(results);
+					
+				$(document).ready(function() {	
+					$('#example').DataTable( {
+						data: ideas,
+						columns: [
+							{ title: "Key" },
+							{ title: "Summary" },
+							{ title: "Status" },
+							{ title: "Created" },
+							{ title: "Description" }
+						]
+					} );
+					
+				} );	
+			}
 		</script>
 
 	</body>
