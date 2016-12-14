@@ -13,7 +13,7 @@
 			var rawCSV;
 			
 			//jQuery.get("https://benetech.github.io/LabsPipeline/data/pipe.csv",function(data){
-			jQuery.parseXML("https://benetech.github.io/LabsPipeline/data/labspipeline.xml",function(data){
+			jQuery.get("https://benetech.github.io/LabsPipeline/data/labspipeline.xml",function(data){
 				rawCSV = data;	
 				transformData(rawCSV);
 			});
