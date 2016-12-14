@@ -12,7 +12,8 @@
 		<script>
 			var rawCSV;
 			
-			jQuery.get("https://benetech.github.io/LabsPipeline/data/pipe.csv",function(data){
+			//jQuery.get("https://benetech.github.io/LabsPipeline/data/pipe.csv",function(data){
+			jQuery.ParsXML("https://benetech.github.io/LabsPipeline/data/labspipeline.xml",function(data){
 				rawCSV = data;	
 				transformData(rawCSV);
 			});
@@ -34,12 +35,12 @@
 			
 			function transformData(rawCSV){
 						
-				rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
-				rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
-				rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
-				rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
-				rawCSV = rawCSV.substring(0,rawCSV.lastIndexOf("\n"));
-				rawCSV = rawCSV.substring(0,rawCSV.lastIndexOf("\n"));
+				//rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
+				//rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
+				//rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
+				//rawCSV = rawCSV.substring(rawCSV.indexOf("\n") + 1);
+				//rawCSV = rawCSV.substring(0,rawCSV.lastIndexOf("\n"));
+				//rawCSV = rawCSV.substring(0,rawCSV.lastIndexOf("\n"));
 				
 				csvArray = $.csv.toArrays(rawCSV);
 				
